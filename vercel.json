@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npm install",
+  "outputDirectory": ".",
+  "framework": "express",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/server.js"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "cielo-api-wrapper",
+  "version": "1.0.0",
+  "description": "API wrapper para Cielo Payment Links - Integração Dify",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "cielo",
+    "payment",
+    "api",
+    "dify"
+  ],
+  "author": "Tecsperts",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
